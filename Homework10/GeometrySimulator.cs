@@ -1,4 +1,5 @@
 using System;
+using System.Reflection.Metadata;
 using static System.Math;
 
 namespace GeometrySimulator
@@ -57,6 +58,19 @@ namespace GeometrySimulator
             Point3 = Points[2];
             Point4 = Points[3];
         }
+        public void Move(double x, double y)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                double mx = Points[i].X + x;
+                double my = Points[i].Y + y;
+                Points[i] = new Point(mx, my);
+            }
+            Point1 = Points[0];
+            Point2 = Points[1];
+            Point3 = Points[2];
+            Point4 = Points[3];
+        }
         public double Perimeter() =>
             Point.Dist(Point1, Point2) + Point.Dist(Point2, Point3) + Point.Dist(Point3, Point4) + Point.Dist(Point4, Point1);
         public double Area() =>
@@ -75,6 +89,7 @@ namespace GeometrySimulator
             Rectangles = rectangles.ToList();
         }
 
+        public Rectangle[] GetRectangles() => Rectangles.ToArray();
         public Rectangle? FarthestRectangle()
         {
             double maxDist = double.MaxValue;
