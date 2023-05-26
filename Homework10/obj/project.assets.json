@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pirog\\OneDrive\\Документы\\GitHub\\DZ10\\HomeWork10\\HomeWork10.csproj",
+      "projectUniqueName": "C:\\Users\\pirog\\OneDrive\\Рабочий стол\\Homework10Main\\HomeWork10\\HomeWork10.csproj",
       "projectName": "HomeWork10",
-      "projectPath": "C:\\Users\\pirog\\OneDrive\\Документы\\GitHub\\DZ10\\HomeWork10\\HomeWork10.csproj",
+      "projectPath": "C:\\Users\\pirog\\OneDrive\\Рабочий стол\\Homework10Main\\HomeWork10\\HomeWork10.csproj",
       "packagesPath": "C:\\Users\\pirog\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pirog\\OneDrive\\Документы\\GitHub\\DZ10\\HomeWork10\\obj\\",
+      "outputPath": "C:\\Users\\pirog\\OneDrive\\Рабочий стол\\Homework10Main\\HomeWork10\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
