@@ -14,6 +14,8 @@ namespace HomeWork10
         private string[] answers { get; }
         private string[] hints { get; }
         private int num { get; }
+
+        private Random rand = new Random();
         public Test(int i)
         {
 
@@ -21,7 +23,6 @@ namespace HomeWork10
             questions = new string[i];
             answers = new string[i];
             hints = new string[i];
-            Random rand = new Random();
 
             string path;
             Console.WriteLine("Введите 1 если вы хотите использовать стандартный тест, введите два если хотите загрузить свои вопросы");
@@ -41,12 +42,25 @@ namespace HomeWork10
             {
                 int l = rand.Next(0, readText.Length);
                 string[] quiz = readText[l].Split(new char[] { '/' });
+                quiz = checkS(quiz, readText);
                 questions[j] = quiz[0];
                 answers[j] = quiz[1];
                 hints[j] = quiz[2];
             }
         }
-
+        public string[] checkS(string[] quiz,string[] readText)
+        {
+            for (int i = 0; i < questions.Length; i++)
+            {
+                if (questions[i] != null && questions[i] == quiz[0])
+                {
+                    int l = rand.Next(0, readText.Length);
+                    quiz = readText[l].Split(new char[] { '/' });
+                    return quiz = checkS(quiz, readText);
+                }
+            }
+            return quiz;
+        }
         public void Start()
         {
             int ball = 0;
@@ -72,6 +86,8 @@ namespace HomeWork10
             ball = Convert.ToInt32(Console.ReadLine());
             if (ball == 1)
             {
+                if (!File.Exists("save.txt"))
+                    File.Create("save.txt").Close();
                 using (StreamWriter writer = new StreamWriter("save.txt", false))
                 {
                     for (int i = 0; i < num; i++)
@@ -80,6 +96,8 @@ namespace HomeWork10
                         writer.WriteLine(answers[i]);
                     }
                 }
+                if (!File.Exists("savehint.txt"))
+                    File.Create("savehint.txt").Close();
                 using (StreamWriter hintsw = new StreamWriter("savehint.txt", false))
                 {
                     for (int i = 0; i < num; i++)
