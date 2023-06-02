@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "VFwAR+jSve+y6LuWuato0rG9BUOp2F1cLdhwSbYSQ+QYGCmEPTZh8CCnM8qMFiYpCVMGxQeBT68kPtXFrnrC2g==",
+  "dgSpecHash": "ttBbyVFqv6VPtrQIM8kxgfUGGVealGUKwQ/PoUL3+BYmxaoBF94/UDnxC9pSQsF1fWeVdE9Ga0zvYTs7OcySbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pirog\\OneDrive\\Рабочий стол\\DZ10-main\\HomeWork10\\HomeWork10.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\d14b\\Source\\Repos\\DZ10\\HomeWork10\\HomeWork10.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\d14b\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\d14b\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\d14b\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\d14b\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }
