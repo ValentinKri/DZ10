@@ -14,3 +14,67 @@ C:\Users\pirog\source\repos\HomeWork10\HomeWork10\obj\Debug\net5.0\HomeWork10.dl
 C:\Users\pirog\source\repos\HomeWork10\HomeWork10\obj\Debug\net5.0\ref\HomeWork10.dll
 C:\Users\pirog\source\repos\HomeWork10\HomeWork10\obj\Debug\net5.0\HomeWork10.pdb
 C:\Users\pirog\source\repos\HomeWork10\HomeWork10\obj\Debug\net5.0\HomeWork10.genruntimeconfig.cache
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.AssemblyReference.cache
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfoInputs.cache
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfo.cs
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.CoreCompileInputs.cache
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.exe
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.deps.json
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.json
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.dev.json
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\bin\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Рабочий стол\Homework10Main\HomeWork10\obj\Debug\net5.0\HomeWork10.genruntimeconfig.cache
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.exe
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.deps.json
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.json
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.dev.json
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\bin\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.AssemblyReference.cache
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfoInputs.cache
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfo.cs
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.CoreCompileInputs.cache
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Рабочий стол\DZ10-main\HomeWork10\obj\Debug\net5.0\HomeWork10.genruntimeconfig.cache
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.exe
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.deps.json
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.json
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.dev.json
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.dll
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.pdb
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.AssemblyReference.cache
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfoInputs.cache
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfo.cs
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.CoreCompileInputs.cache
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.dll
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\refint\HomeWork10.dll
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.pdb
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.genruntimeconfig.cache
+C:\Users\d14b\Source\Repos\DZ10\HomeWork10\obj\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.exe
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.deps.json
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.json
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.runtimeconfig.dev.json
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\bin\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.AssemblyReference.cache
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfoInputs.cache
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.AssemblyInfo.cs
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.csproj.CoreCompileInputs.cache
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.dll
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\ref\HomeWork10.dll
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.pdb
+C:\Users\pirog\OneDrive\Документы\GitHub\DZ10\HomeWork10\obj\Debug\net5.0\HomeWork10.genruntimeconfig.cache
