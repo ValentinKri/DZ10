@@ -11,9 +11,11 @@ namespace HomeWork10
     class Test
     {
         private string[] questions { get; }
+        private string[][] squestions { get; }
         private string[] answers { get; }
         private string[] hints { get; }
         private int num { get; }
+        private int type { get; }
 
         private Random rand = new Random();
         public Test(int i)
@@ -21,16 +23,26 @@ namespace HomeWork10
 
             num = i;
             questions = new string[i];
+            squestions = new string[i][];
+            for (var j = 0; j < i; j++)
+                squestions[j] = new string[5];
             answers = new string[i];
             hints = new string[i];
 
+            HashSet<int> visitedQuestions = new HashSet<int>();
+
+            Console.WriteLine("Введите \"1\" если вы хотите использовать тест с свободными ответами, \"2\" – с варимантми ответа");
+            type = Convert.ToInt32(Console.ReadLine());
             string path;
-            Console.WriteLine("Введите 1 если вы хотите использовать стандартный тест, введите два если хотите загрузить свои вопросы");
+            Console.WriteLine("Введите \"1\" если вы хотите использовать стандартный тест, введите \"2\" если хотите загрузить свои вопросы");
             int ans = Convert.ToInt32(Console.ReadLine());
             ans = Check(ans);
             if (ans == 1)
             {
-                path = "test.txt";
+                if (type == 1)
+                    path = "test.txt";
+                else
+                    path = "test1.txt";
             }
             else
             {
@@ -40,15 +52,34 @@ namespace HomeWork10
             string[] readText = File.ReadAllLines(path);
             for (int j = 0; j < i; j++)
             {
-                int l = rand.Next(0, readText.Length);
-                string[] quiz = readText[l].Split(new char[] { '/' });
+            a: int l = rand.Next(0, readText.Length);
+                if (visitedQuestions.Contains(l))
+                    goto a;
+                visitedQuestions.Add(l);
+                string[] quiz = readText[l].Split('/');
                 quiz = checkS(quiz, readText);
-                questions[j] = quiz[0];
+                if (type == 1)
+                    questions[j] = quiz[0];
+                else
+                {
+                    HashSet<int> visitedAnswers = new HashSet<int>();
+                    var ques = quiz[0].Split(".");
+                    squestions[j][0] = ques[0];
+                    for (var k = 1; k < 5; k++)
+                    {
+                    b: var m = rand.Next(1, 5);
+                        if (visitedAnswers.Contains(m))
+                            goto b;
+                        visitedAnswers.Add(m);
+                        squestions[j][k] = ques[m];
+                    }
+                }
                 answers[j] = quiz[1];
                 hints[j] = quiz[2];
             }
+
         }
-        public string[] checkS(string[] quiz,string[] readText)
+        public string[] checkS(string[] quiz, string[] readText)
         {
             for (int i = 0; i < questions.Length; i++)
             {
@@ -67,7 +98,10 @@ namespace HomeWork10
             for (int i = 0; i < num; i++)
             {
                 Console.WriteLine("Вопрос " + (i + 1));
-                Console.WriteLine(questions[i]);
+                if (type == 1)
+                    Console.WriteLine(questions[i]);
+                else
+                    Console.WriteLine(string.Join("\n", squestions[i]));
                 Console.WriteLine("Дайте ответ, если нужна подсказка введите Hint ");
                 string ans = Console.ReadLine();
                 if (ans == "Hint")
@@ -82,7 +116,7 @@ namespace HomeWork10
                 }
             }
             Console.WriteLine("Правильных ответов - " + ball + " из " + num);
-            Console.WriteLine("Хотите сохранить: 1-да 2-нет");
+            Console.WriteLine("Хотите сохранить: 1 – да; 2 - нет");
             ball = Convert.ToInt32(Console.ReadLine());
             if (ball == 1)
             {
@@ -92,7 +126,10 @@ namespace HomeWork10
                 {
                     for (int i = 0; i < num; i++)
                     {
-                        writer.WriteLine(questions[i]);
+                        if (type == 1)
+                            writer.WriteLine(questions[i]);
+                        else
+                            writer.WriteLine(string.Join("\n", squestions[i]));
                         writer.WriteLine(answers[i]);
                     }
                 }
