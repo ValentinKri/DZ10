@@ -69,7 +69,7 @@ namespace HomeWork10
                     }
                 case "3":
                     {
-                        var tra = new Training("Filename", 1);
+                        var tra = new Training(1);
                         tra.GenerateTraining();
                         break;
                     }
